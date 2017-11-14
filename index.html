@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,49 +9,64 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
   </head>
+
   <body>
+
     <div class="container">
-      <div class="row grad">
-        <div class="col-md-6">
-          <img src="images/makeupsomething_logo.jpg" alt="logo">
+
+      <header>
+        <div class="row grad">
+          <div class="col-md-6">
+            <img src="images/makeupsomething_logo.jpg" alt="logo">
+          </div>
+          <div class="col-md-6 text-right">
+            <h1>Makeupsomething</h1>
+            <h4>Day and Night</h4>
+          </div>
         </div>
-        <div class="col-md-6 text-right">
-          <h1>Makeupsomething</h1>
-          <h4>Day and Night</h4>
-        </div>
-      </div>
+      </header>
+
       <div class="row">
         <div class="col-md-12">
           <hr>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <img class="col-md-12 img-responsive" src="images/image_main.jpg" alt="main">
-        </div>
-      </div>
+
+      <main>
+        <article class="row">
+          <div class="col-xs-12">
+            <img class="img-responsive" src="images/image_main.jpg" alt="main">
+          </div>
+        </article>
+      </main>
+
       <div class="row">
         <div class="col-md-12">
           <h2>Featured Work</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img class="col-md-12 img-responsive" src="images/image_small_1.jpg" alt="other 1">
-          <h3>Other image</h3>
-          <p>Toshima, Japan<p>
-        </div>
-        <div class="col-md-4">
-          <img class="col-md-12 img-responsive" src="images/image_small_2.jpg" alt="other 2">
-          <h3>Other image</h3>
-          <p>Toshima, Japan<p>
-        </div>
-        <div class="col-md-4">
-          <img class="col-md-12 img-responsive" src="images/image_small_3.jpg" alt="other 3">
-          <h3>Other image</h3>
-          <p>Toshima, Japan<p>
-        </div>
-      </div>
+
+      <section id="other-work" class="row">
+
+        <figure class="col-md-4">
+            <img class="img-responsive" src="images/image_small_1.jpg" alt="other 1">
+            <figcaption>Fall</figcaption>
+        </figure>
+
+        <figure class="col-md-4">
+          <img class="img-responsive" src="images/image_small_2.jpg" alt="other 2">
+          <figcaption>Spring</figcaption>
+        </figure>
+
+        <figure class="col-md-4">
+          <img class="img-responsive" src="images/image_small_3.jpg" alt="other 3">
+          <figcaption>Summer</figcaption>
+        </figure>
+
+      </section>
+
     </div>
+    
   </body>
+
 </html>
