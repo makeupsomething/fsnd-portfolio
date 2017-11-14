@@ -1,0 +1,20 @@
+.test {
+  color: white;
+  background-color: black;
+}
+
+.grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-75deg, white, gray, black); /* Standard syntax */
+}
+
+.bg {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, gray, black); /* Standard syntax */
+}
